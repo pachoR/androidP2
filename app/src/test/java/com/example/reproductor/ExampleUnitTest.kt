@@ -1,4 +1,4 @@
-package com.example.videoreproductor
+package com.example.reproductor
 
 import org.junit.Test
 

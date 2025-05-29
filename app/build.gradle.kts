@@ -49,6 +49,24 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    
+    // Navigation Components
+    implementation(libs.androidx.navigation.compose)
+    
+    // Media3 ExoPlayer
+    implementation(libs.androidx.media3.exoplayer)
+    implementation(libs.androidx.media3.ui)
+    implementation(libs.androidx.media3.common)
+    
+    // Icons
+    implementation(libs.androidx.material.icons.extended)
+    
+    // Permissions
+    implementation(libs.androidx.accompanist.permissions)
+    
+    // Image loading
+    implementation(libs.coil.compose)
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
